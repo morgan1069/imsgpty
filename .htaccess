@@ -1,0 +1,23 @@
+# ============================================
+# Hardening — IMS Global Supply
+# ============================================
+
+# No permitir listar el contenido de carpetas
+Options -Indexes
+
+# Bloquear acceso directo a archivos de documentación interna
+<FilesMatch "\.(md)$">
+  Require all denied
+</FilesMatch>
+
+# Bloquear acceso a archivos ocultos / de control de versiones (.git, .env, etc.)
+<FilesMatch "^\.">
+  Require all denied
+</FilesMatch>
+
+# Excepción: .htaccess necesita bloquearse a sí mismo también (ya cubierto arriba)
+
+# No exponer archivos de backup / editor
+<FilesMatch "(\.bak|\.old|~)$">
+  Require all denied
+</FilesMatch>

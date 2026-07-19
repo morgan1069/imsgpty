@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /CLAUDE/
+
+Sitemap: https://TUDOMINIO.com/sitemap.xml
