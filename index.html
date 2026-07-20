@@ -28,9 +28,9 @@
 <div style="font-family:'Barlow',Helvetica,Arial,sans-serif;background:#0f0f0f;color:#fff;overflow-x:hidden;padding-top:73px;">
 
   <!-- HEADER -->
-  <header style="position:fixed;top:0;left:0;right:0;width:100%;z-index:100;background:linear-gradient(90deg,#081a33 0%,#0a2342 45%,#164a76 100%); display:flex;align-items:center;justify-content:space-between;padding:16px 24px;border-bottom:1px solid #14345c;box-sizing:border-box;">
+  <header style="position:fixed;top:0;left:0;right:0;width:100%;z-index:100;background:linear-gradient(90deg,#081a33 0%,#0a2342 45%,#164a76 100%);display:flex;align-items:center;justify-content:space-between;padding:16px 24px;border-bottom:1px solid #14345c;box-sizing:border-box;">
     <div style="display:flex;align-items:center;gap:12px;">
-      <img src="assets/ims-logo-transp.png" alt="IMS Global Supply" style="height:40px;width:auto;object-fit:contain;display:block;"></img>
+      <img src="assets/ims-logo-transp.png" alt="IMS Global Supply" style="height:40px;width:auto;object-fit:contain;display:block;">
     </div>
     <nav style="display:{{ desktopNavDisplay }};align-items:center;gap:32px;">
       <a href="#productos" style="text-decoration:none;color:#fff;font-weight:600;font-size:14px;" style-hover="color:#b3b3b3">Productos</a>
@@ -52,7 +52,7 @@
 
   <!-- HERO -->
   <section style="position:relative;min-height:520px;display:flex;align-items:center;padding:80px 24px;overflow:hidden;">
-   <div class="hero-water" style="position:absolute;inset:-4%;background:url('assets/img/hero-puerto.jpg') center/cover no-repeat;"></div>
+    <div class="hero-water" style="position:absolute;inset:-4%;background:url('assets/img/hero-puerto.jpg') center/cover no-repeat;"></div>
     <div style="position:absolute;inset:0;background:linear-gradient(180deg, rgba(10,10,10,0.55), rgba(10,10,10,0.85));"></div>
     <div style="position:relative;max-width:720px;">
       <p style="font-size:13px;font-weight:700;letter-spacing:2px;color:#c9c9c9;text-transform:uppercase;margin:0 0 16px;">Distribuidor · Representante de fábrica · Revendedor</p>
@@ -72,7 +72,7 @@
         <image-slot id="perfil-empresa" shape="rect" style="width:100%;height:100%;" placeholder="Foto: instalaciones o bodega IMS"></image-slot>
       </div>
       <div class="mobile-center">
-        <img src="assets/ims-logo-transp.png" alt="IMS Global Supply" style="height:38px;width:auto;object-fit:contain;display:inline-block;margin:0 0 16px;"></img>
+        <img src="assets/ims-logo-transp.png" alt="IMS Global Supply" style="height:38px;width:auto;object-fit:contain;display:inline-block;margin:0 0 16px;">
         <h2 style="font-size:clamp(24px,3vw,34px);font-weight:800;margin:0 0 16px;">Perfil de la empresa</h2>
         <p style="font-size:16px;color:#c9c9c9;line-height:1.7;max-width:560px;margin:0 0 24px;">IMS Global Supply S.A. distribuye, representa y comercializa piezas y equipos industriales y marinos en Panamá desde hace más de 30 años, atendiendo a clientes locales e internacionales con altos estándares de calidad.</p>
         <a href="#contacto" style="text-decoration:none;border:1px solid #fff;color:#fff;font-weight:700;font-size:14px;padding:12px 22px;display:inline-block;border-radius:6px;" style-hover="background:rgba(255,255,255,0.1)">Más información ›</a>
@@ -98,7 +98,7 @@
         </div>
         <div class="img-float" style="width:100%;aspect-ratio:5/4;align-self:start;animation-delay:.4s;position:relative;">
           <sc-for list="{{ carouselA }}" as="c" hint-placeholder-count="3">
-            <img src="{{ c.src }}" alt="{{ c.placeholder }}" style="width:100%;height:100%;object-fit:cover;position:absolute;top:0;left:0;opacity:{{ c.opacity }};transition:opacity 1s ease;"></img>
+            <img src="{{ c.src }}" alt="{{ c.placeholder }}" style="width:100%;height:100%;object-fit:cover;position:absolute;top:0;left:0;opacity:{{ c.opacity }};transition:opacity 1s ease;">
           </sc-for>
           <div style="position:absolute;bottom:12px;left:0;right:0;display:flex;justify-content:center;gap:8px;">
             <sc-for list="{{ carouselA }}" as="c" hint-placeholder-count="3">
@@ -110,7 +110,7 @@
       <div class="grid-stack" style="display:grid;grid-template-columns:1fr 1fr;gap:56px;margin-top:64px;">
         <div class="img-float" style="width:100%;aspect-ratio:5/4;align-self:start;order:1;animation-delay:.8s;position:relative;">
           <sc-for list="{{ carouselB }}" as="c" hint-placeholder-count="3">
-            <img src="{{ c.src }}" alt="{{ c.placeholder }}" style="width:100%;height:100%;object-fit:cover;position:absolute;top:0;left:0;opacity:{{ c.opacity }};transition:opacity 1s ease;"></img>
+            <img src="{{ c.src }}" alt="{{ c.placeholder }}" style="width:100%;height:100%;object-fit:cover;position:absolute;top:0;left:0;opacity:{{ c.opacity }};transition:opacity 1s ease;">
           </sc-for>
           <div style="position:absolute;bottom:12px;left:0;right:0;display:flex;justify-content:center;gap:8px;">
             <sc-for list="{{ carouselB }}" as="c" hint-placeholder-count="3">
@@ -137,7 +137,7 @@
   <section id="clientes" style="background:#fafafa;color:#141414;padding:88px 24px;">
     <div style="max-width:1100px;margin:0 auto;">
       <div style="display:flex;align-items:center;flex-wrap:wrap;gap:16px;margin:0 0 12px;">
-        <img src="assets/ims-logo-transp.png" alt="IMS Global Supply" style="height:40px;width:auto;object-fit:contain;display:block;"></img>
+        <img src="assets/ims-logo-transp.png" alt="IMS Global Supply" style="height:40px;width:auto;object-fit:contain;display:block;">
         <h2 style="font-size:clamp(26px,3.6vw,38px);font-weight:900;margin:0;">Nuestra cartera de clientes</h2>
       </div>
       <p style="font-size:15px;color:#5a5a5a;max-width:640px;margin:0 0 40px;line-height:1.6;">Hemos brindado un servicio confiable por más de 30 años. Entre nuestros clientes destaca:</p>
@@ -150,7 +150,7 @@
           <sc-for list="{{ brandMarquee }}" as="b" hint-placeholder-count="14">
             <div style="width:160px;flex-shrink:0;">
               <div style="width:100%;aspect-ratio:1/1;background:#efefef;display:flex;align-items:center;justify-content:center;padding:18px;box-sizing:border-box;border-radius:10px;">
-                <img src="{{ b.src }}" alt="{{ b.label }}" style="max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;display:block;"></img>
+                <img src="{{ b.src }}" alt="{{ b.label }}" style="max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;display:block;">
               </div>
               <p style="font-size:11px;font-weight:700;color:#141414;margin:8px 0 0;text-align:center;">{{ b.label }}</p>
             </div>
@@ -192,15 +192,15 @@
           <h3 style="font-size:20px;font-weight:800;margin:0 0 4px;">Solicite una cotización</h3>
           <div>
             <label style="display:block;font-size:13px;font-weight:700;margin-bottom:6px;">Nombre / Empresa</label>
-            <input type="text" required value="{{ name }}" onChange="{{ setName }}" placeholder="Ej. Autoridad Marítima" style="width:100%;padding:12px 14px;border:1px solid #ccc;font-size:14px;box-sizing:border-box;border-radius:6px;"></input>
+            <input type="text" required value="{{ name }}" onChange="{{ setName }}" placeholder="Ej. Autoridad Marítima" style="width:100%;padding:12px 14px;border:1px solid #ccc;font-size:14px;box-sizing:border-box;border-radius:6px;">
           </div>
           <div>
             <label style="display:block;font-size:13px;font-weight:700;margin-bottom:6px;">Correo electrónico</label>
-            <input type="email" required value="{{ email }}" onChange="{{ setEmail }}" placeholder="correo@empresa.com" style="width:100%;padding:12px 14px;border:1px solid #ccc;font-size:14px;box-sizing:border-box;border-radius:6px;"></input>
+            <input type="email" required value="{{ email }}" onChange="{{ setEmail }}" placeholder="correo@empresa.com" style="width:100%;padding:12px 14px;border:1px solid #ccc;font-size:14px;box-sizing:border-box;border-radius:6px;">
           </div>
           <div>
             <label style="display:block;font-size:13px;font-weight:700;margin-bottom:6px;">Teléfono</label>
-            <input type="tel" value="{{ phone }}" onChange="{{ setPhone }}" placeholder="+507 ..." style="width:100%;padding:12px 14px;border:1px solid #ccc;font-size:14px;box-sizing:border-box;border-radius:6px;"></input>
+            <input type="tel" value="{{ phone }}" onChange="{{ setPhone }}" placeholder="+507 ..." style="width:100%;padding:12px 14px;border:1px solid #ccc;font-size:14px;box-sizing:border-box;border-radius:6px;">
           </div>
           <div>
             <label style="display:block;font-size:13px;font-weight:700;margin-bottom:6px;">Detalle de su requerimiento</label>
@@ -219,7 +219,7 @@
   </section>
 
   <footer style="background:#081a33;color:#8a9bb5;text-align:center;padding:28px 24px;font-size:13px;border-top:1px solid #14345c;">
-    <img src="assets/ims-logo-transp.png" alt="IMS Global Supply" style="height:32px;width:auto;object-fit:contain;display:inline-block;margin:0 0 14px;"></img>
+    <img src="assets/ims-logo-transp.png" alt="IMS Global Supply" style="height:32px;width:auto;object-fit:contain;display:inline-block;margin:0 0 14px;">
     <p style="margin:0;">© {{ year }} IMS Global Supply S.A. Todos los derechos reservados. Panamá.</p>
   </footer>
 
