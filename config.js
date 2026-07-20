@@ -13,11 +13,11 @@
 window.IMS_CONFIG = {
 
   // Correo donde llegan las cotizaciones del formulario
-  email: 'morgan.meyer@gmail.com',
+  email: 'sorayas@imsgspty.com',
 
   // Número de WhatsApp SIN el signo "+" (solo dígitos)
-  // Ejemplo para Panamá: 50765734143
-  whatsapp: '50765734143',
+  // Ejemplo para Panamá: 50768343187
+  whatsapp: '50768343187',
 
   // Datos de ubicación (texto mostrado en la sección de contacto)
   ubicacion: 'Edificio Toledo, Punta Paitilla, Avenida Balboa, Ciudad de Panamá, Panamá',
