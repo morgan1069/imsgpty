@@ -12,7 +12,7 @@ window.IMS_CONFIG = {
   email: 'sorayas@imsgspty.com',
 
   // Número de WhatsApp SIN el signo "+" (solo dígitos)
-  // Ejemplo para Panamá: 507 68343187
+  // Ejemplo para Panamá: 50768343187
   whatsapp: '50768343187',
 
   // Datos de ubicación (texto mostrado en la sección de contacto)
