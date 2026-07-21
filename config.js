@@ -8,8 +8,11 @@
 
 window.IMS_CONFIG = {
 
-  // Correo donde llegan las cotizaciones del formulario
-  email: 'sorayas@imsgspty.com',
+  // Correo general donde llegan las cotizaciones del formulario
+  email: 'administracion@imsgspty.com',
+
+  // Teléfono general (se muestra en la sección de contacto)
+  telefono: '(507) 294-5282',
 
   // Número de WhatsApp SIN el signo "+" (solo dígitos)
   // Ejemplo para Panamá: 50768343187
