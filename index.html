@@ -188,7 +188,7 @@
           </div>
 
           <h3 style="font-size:16px;font-weight:800;margin:40px 0 20px;color:#fff;">Nuestro equipo</h3>
-          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px;justify-items:center;">
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;justify-items:center;max-width:600px;margin:0 auto;">
             <sc-for list="{{ team }}" as="m" hint-placeholder-count="3">
               <div style="background:#1c1c1c;border-radius:10px;padding:28px 20px;display:flex;flex-direction:column;align-items:center;text-align:center;">
                 <div style="width:60px;height:60px;border-radius:50%;background:#4a4a4a;display:flex;align-items:center;justify-content:center;margin:0 0 14px;flex-shrink:0;">
@@ -337,8 +337,7 @@ class Component extends DCLogic {
     const brandMarquee = [...brandSlots, ...brandSlots.map(b => ({ ...b, id: b.id + '-dup' }))];
     const team = [
       { id: 'team-1', name: 'Juan A. Abood', title: 'Presidente / Gerente General', wa: '50766261909', waDisplay: '+507 6626-1909', email: 'jabood@imsgspty.com' },
-      { id: 'team-2', name: 'Soraya Santiesteban', title: 'Gerente de Compras', wa: '50768343187', waDisplay: '+507 6834-3187', email: 'sorayas@imsgspty.com' },
-      { id: 'team-3', name: 'Carlos L. Villarreal', title: 'Gerente Administrativo', wa: '50766364370', waDisplay: '+507 6636-4370', email: 'carlos.villarreal@imsgspty.com' }
+      { id: 'team-2', name: 'Soraya Santiesteban', title: 'Gerente de Compras', wa: '50768343187', waDisplay: '+507 6834-3187', email: 'sorayas@imsgspty.com' }
     ];
     const carouselAData = [
       { placeholder: 'Foto: piezas metálicas para barcos', src: 'assets/img/Piezas.png.png' },
