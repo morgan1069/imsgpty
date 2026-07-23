@@ -1,13 +1,13 @@
 
   html{scroll-padding-top:73px;}
-  body{margin:0;background:#0f0f0f;}
+  body{margin:0;background:#0b1a26;}
   a{color:inherit;}
-  ::selection{background:#e5e5e5;color:#0f0f0f;}
+  ::selection{background:#e5e5e5;color:#0b1a26;}
   input,textarea{font-family:inherit;outline:none;}
-  input:focus,textarea:focus{border-color:#0f0f0f !important;}
+  input:focus,textarea:focus{border-color:#0b1a26 !important;}
   @keyframes floatY{0%{transform:translateY(0);}50%{transform:translateY(-10px);}100%{transform:translateY(0);}}
-  .img-float{animation:floatY 6s ease-in-out infinite;transition:transform .4s ease;border-radius:10px;overflow:hidden;}
-  .img-float:hover{transform:scale(1.02);}
+  .img-float{animation:floatY 6s ease-in-out infinite;transition:transform .4s ease,box-shadow .4s ease;border-radius:10px;overflow:hidden;border:1px solid rgba(255,255,255,0.08);box-shadow:0 10px 30px rgba(0,0,0,0.3);}
+  .img-float:hover{transform:scale(1.02);box-shadow:0 14px 38px rgba(0,0,0,0.4);}
   @keyframes heroWater{0%{transform:scale(1.06) translate(0,0);}50%{transform:scale(1.1) translate(-1.2%,-1%);}100%{transform:scale(1.06) translate(0,0);}}
   .hero-water{animation:heroWater 14s ease-in-out infinite;will-change:transform;}
   @keyframes marqueeScroll{0%{transform:translateX(0);}100%{transform:translateX(-50%);}}
